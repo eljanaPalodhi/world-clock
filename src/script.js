@@ -11,11 +11,11 @@ function updateTime() {
     );
   }
 
-  letathensElement = document.querySelector("#athens");
+  let athensElement = document.querySelector("#athens");
   if (athensElement) {
-    letathensDateElement = athensElement.querySelector(".date");
-    letathensTimeElement = athensElement.querySelector(".time");
-    letathensTime = moment().tz("Europe/Athens");
+    let athensDateElement = athensElement.querySelector(".date");
+    let athensTimeElement = athensElement.querySelector(".time");
+    let athensTime = moment().tz("Europe/Athens");
 
     athensDateElement.innerHTML = athensTime.format("MMMM	Do YYYY");
     athensTimeElement.innerHTML = athensTime.format(
