@@ -1,19 +1,13 @@
-body {
-  background: rgb(36, 34, 34);
-  justify-content: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
+.container-fluid {
   max-width: 600px;
   margin: 0 auto;
 
-  background: rgba(202, 200, 196, 0.781);
-  padding: 30px;
+  border-radius: 10px;
+  background: rgba(252, 252, 252, 0.849);
+  padding: 40px;
+
   box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.4);
-  margin: 60px 0;
+  margin: 250px 0;
 }
 .city {
   display: flex;
@@ -54,13 +48,11 @@ footer {
   background-color: #ffffff;
   text-align: center;
 }
-a {
-  display: -ms-inline-flexbox;
-
-  color: #ad8d52;
+.link-link {
   text-decoration: none;
+  color: rgb(170, 124, 68);
 }
-a:hover {
-  color: rgba(34, 86, 184, 0.952);
-  transition: ease-in-out;
+.link-link:hover {
+  text-decoration: underline;
+  color: blue;
 }
